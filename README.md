@@ -13,7 +13,7 @@ SportsTeam superclass
 6. Within the SportsTeam class write a toString() method that returns a String with all of the stats for a team.
 
 For the remainder of the worksheet you will be defining two classes: Football and Baseball, that inherit from the SportsTeam class. The diagram below illustrates this relationship.
-![alt text] ()
+![alt text](https://github.com/fators22/SportsTeam/blob/master/src/main/java/Inherit.png)
 
 Remember the following concepts regarding inheritance.
 ·             A subclass can add new private instance variables.s
