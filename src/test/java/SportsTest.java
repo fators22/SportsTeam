@@ -17,7 +17,7 @@ class SportsTest {
 
 	@DisplayName("get Win Percentage") 
 	@Test 
-	void Should_ReturnWin_Percentage() {
+	void Should_ReturnWin() {
 		obj=new SportsTeam("Bergen", 7, 3, 4, 0);
 		int count = obj.getWins();
 		assertEquals(3, count);
@@ -25,7 +25,7 @@ class SportsTest {
 
 	@DisplayName("get Win +1 Percentage") 
 	@Test 
-	void Should_ReturnWin1_Percentage() {
+	void Should_ReturnWin1() {
 		obj=new SportsTeam("Bergen", 7, 3, 4, 0);
 	
 		obj.playGame("W");
@@ -35,7 +35,7 @@ class SportsTest {
 
 	@DisplayName("get Loss +1 Percentage") 
 	@Test 
-	void Should_ReturnWin1_Percentage() {
+	void Should_ReturnLoss() {
 		obj=new SportsTeam("Bergen", 7, 3, 4, 0);
 	
 		obj.playGame("L");
@@ -45,11 +45,11 @@ class SportsTest {
 	
 	@DisplayName("To String Method") 
 	@Test 
-	void Should_ReturntoSting_MEthod() {
+	void Should_ReturntoString() {
 		obj=new SportsTeam("Bergen", 7, 3, 4, 0);
 	        String received= obj.toString();
-		String expected= "Knights: 3 Wins, 4 Losses, 0 Ties, 3 Touchdowns, 1 Interceptions"
-		assertEquals(expects, received);
+		String expected= "Knights: 3 Wins, 4 Losses, 0 Ties, 3 Touchdowns, 1 Interceptions";
+		assertEquals(expected, received);
 	}
 
 }
