@@ -15,12 +15,14 @@ SportsTeam superclass
 For the remainder of the worksheet you will be defining two classes: Football and Baseball, that inherit from the SportsTeam class. The diagram below illustrates this relationship.
 ![alt text](https://github.com/fators22/SportsTeam/blob/master/src/main/java/Inherit.png)
 
-Remember the following concepts regarding inheritance.
+Important concepts regarding inheritance.
 ·             A subclass can add new private instance variables.s
 ·             A subclass can add new public or private methods.
 ·             A subclass can override (redefine) inherited methods.
 ·             A subclass must define its own constructors.
 ·             A subclass cannot directly access the private members of its superclass.
+
+
 Football subclass
 7. Create a subclass called Football which extends the SportsTeam class.  This class should include 2 instance variables which represent the number of touchdowns and and the number of interceptions.
 
@@ -31,6 +33,8 @@ Football subclass
 10. Within the Football class write a method called interceptionsPerGame() which returns a double representing the number of interceptions per game.
 
 11. Within the Football class write a toString() method which overrides the parent toString() method in the SportsTeam class.  This toString() method should return a String which includes all of the stats for a Football team. (hint: this means the Football class should inherit information from the SportsTeam class)
+
+
 
 Baseball subclass
 12. Create a subclass called Baseball which extends the SportsTeam class.  This class should include 3 instance variables which represent the number of homeruns, the number of RBI's and the number of errors.
